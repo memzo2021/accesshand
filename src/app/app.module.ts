@@ -11,16 +11,24 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { HttpClientModule } from '@angular/common/http';
 import { CreateComponent } from './admin/adminCreate/create/create.component';
-import { AdminSignInComponent } from './admin/admin-sign-in/admin';
-@NgModule({
+import { AdminSignInComponent } from './admin/admin-sign-in/admin-sign-in/admin-sign-in.component';
+import { AdminFilterComponent } from './admin/admin-filter/admin-filter.component';
+import { MyStationsComponent } from './admin/admin-stations/my-stations/my-stations.component';
+import { NotFoundComponent } from './pages/not-found/not-found/not-found.component';
+import { SignInComponent } from './admin/admin_sign-In/sign-in/sign-in.component';
+ @NgModule({
   declarations: [
     AppComponent,
     AcceuilComponent,
     AdminComponent,
     NavbarComponent,
-    AdminSignInComponent,
-  
+   
     CreateComponent,
+        AdminSignInComponent,
+        AdminFilterComponent,
+        MyStationsComponent,
+        NotFoundComponent,
+        SignInComponent
   ],
   imports: [
     BrowserModule,

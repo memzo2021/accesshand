@@ -25,13 +25,11 @@
 </div>
 
      
-    <div class="mb-3">
-        <label for="callTerminal" class="form-label">Call terminal</label>
-        <input formControlName="callTerminal" type="boolean" class="form-control" id="callTerminal"
+    <div class="mb-3 form-check">
+        <label for="callTerminal" class="form-check-label">Call terminal</label>
+        <input formControlName="callTerminal" type="checkbox" class="form-check-input" id="callTerminal"
             aria-describedby="callTerminalHelp" />
-        <div id="callTerminaltHelp" class="form-text">
-
-        </div>
+        
         <div class="d-grid d-md-flex justify-content-md-end">
             <button [disabled]="createForm.invalid" type="submit" class="btn btn-primary btn-lg">
                 Create

@@ -1,0 +1,33 @@
+
+
+
+<div class="col-md-12">
+    <h2 class="text-primary">Liste des stations</h2>
+    <div class="row">
+        
+        <div class="col-md-6">
+            <form>
+                <div class="form-group">
+                    <label for="exampleInput?????">-----</label>
+                    <input type="-----" class="form-control">
+                 </div>
+            </form>
+            
+
+            
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action "*ngFor="let item of list">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">{{item.stationName}}</h5>
+                        <small>Id :{{item.id}}</small>
+                    </div>
+                    <p class="mb-1">Lift == {{item.lift}}</p>
+                      <p class="mb-1">Call terminal == {{item.callterminal}}</p>
+
+                    <small class="text-muted"> Escalator == {{item.escalator}}</small>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</div>
